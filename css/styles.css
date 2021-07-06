@@ -65,7 +65,7 @@ body {
     text-decoration: none; }
   .headerPrincipal .headerPrincipal__navegacion .headerPrincipal__logo {
     justify-content: flex-start;
-    width: 20rem; }
+    width: 15rem; }
 
 .headerPrincipal .headerPrincipal__barra {
   margin-top: 4rem; }
@@ -411,7 +411,7 @@ body {
     text-decoration: none; }
   .headerPrincipal .headerPrincipal__navegacion .headerPrincipal__logo {
     justify-content: flex-start;
-    width: 20rem; }
+    width: 15rem; }
 
 .headerPrincipal .headerPrincipal__barra {
   margin-top: 4rem; }
