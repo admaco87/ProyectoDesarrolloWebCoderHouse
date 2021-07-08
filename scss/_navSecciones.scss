@@ -93,6 +93,7 @@
             margin-top: 5rem;
             letter-spacing: 5px;
             font-size: 20px;
+            color: $principal-color
         }
         &:hover{
             opacity: .9;
@@ -130,6 +131,46 @@
     }
     
 }
+@media(max-width: 780px){
+.seccionServicio
+    .seccionServicio__servicio{
+        display: flex;
+        flex-direction: column;
+       
+        
+    
+        img{
+            display: none;
+        }
+        h3{
+           
+            letter-spacing: 3px;
+            font-size: 20px;
+           
+        }
+        p{
+            font: $text-font;
+            margin: 5px;
+            text-align: center;
+            padding-top: 2rem;
+            font-size: 2rem;
+               }
+    }
+    
+        
+       
+    
+                
+            
+        
+       
+        
+        
+        
+}
+
+    
+
 
 /*Contacto*/
 

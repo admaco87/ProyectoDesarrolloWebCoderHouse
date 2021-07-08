@@ -336,25 +336,23 @@ body {
 }
 
 @media (max-width: 780px) {
-  .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
-    background: none;
+  .contacto .contacto__contacto-index {
     background-position: center center;
     margin: 0;
   }
 }
 
-@media (max-width: 360px) {
-  .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
+@media (max-width: 400px) {
+  .contacto .contacto__contacto-index {
     background: none;
   }
-  .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
+  .contacto .contacto__contacto-index button {
     border-radius: 10px 10px 10px 10px;
-    padding-left: -60px;
+    padding-right: 30px;
   }
-  .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
+  .contacto .contacto__contacto-index a {
     text-decoration: none;
-    font-size: 4rem;
-    padding-left: 60px;
+    font-size: 2.5rem;
   }
 }
 
@@ -807,25 +805,23 @@ body {
 }
 
 @media (max-width: 780px) {
-  .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
-    background: none;
+  .contacto .contacto__contacto-index {
     background-position: center center;
     margin: 0;
   }
 }
 
-@media (max-width: 360px) {
-  .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
+@media (max-width: 400px) {
+  .contacto .contacto__contacto-index {
     background: none;
   }
-  .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
+  .contacto .contacto__contacto-index button {
     border-radius: 10px 10px 10px 10px;
-    padding-left: -60px;
+    padding-right: 30px;
   }
-  .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
+  .contacto .contacto__contacto-index a {
     text-decoration: none;
-    font-size: 4rem;
-    padding-left: 60px;
+    font-size: 2.5rem;
   }
 }
 
@@ -915,6 +911,7 @@ body {
   margin-top: 5rem;
   letter-spacing: 5px;
   font-size: 20px;
+  color: #a8ce21;
 }
 
 .seccionServicio .seccionServicio__servicio:hover {
@@ -970,6 +967,36 @@ body {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: navio;
+}
+
+@media (max-width: 780px) {
+  .seccionServicio
+.seccionServicio__servicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .seccionServicio
+.seccionServicio__servicio img {
+    display: none;
+  }
+  .seccionServicio
+.seccionServicio__servicio h3 {
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+  .seccionServicio
+.seccionServicio__servicio p {
+    font: "Oxygen", sans-serif;
+    margin: 5px;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
 }
 
 /*Contacto*/

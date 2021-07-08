@@ -254,21 +254,21 @@ body {
     font-size: 2.5rem;
     margin: 15px;
     font-family: "Fredoka One", cursive; }
-  @media (max-width: 780px) {
-    .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
-      background: none;
-      background-position: center center;
-      margin: 0; } }
-  @media (max-width: 360px) {
-    .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
-      background: none; }
-    .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
+
+@media (max-width: 780px) {
+  .contacto .contacto__contacto-index {
+    background-position: center center;
+    margin: 0; } }
+
+@media (max-width: 400px) {
+  .contacto .contacto__contacto-index {
+    background: none; }
+    .contacto .contacto__contacto-index button {
       border-radius: 10px 10px 10px 10px;
-      padding-left: -60px; }
-      .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
-        text-decoration: none;
-        font-size: 4rem;
-        padding-left: 60px; } }
+      padding-right: 30px; }
+    .contacto .contacto__contacto-index a {
+      text-decoration: none;
+      font-size: 2.5rem; } }
 
 .foot .foot__pie-footer {
   background-color: darkgray;
@@ -591,21 +591,21 @@ body {
     font-size: 2.5rem;
     margin: 15px;
     font-family: "Fredoka One", cursive; }
-  @media (max-width: 780px) {
-    .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
-      background: none;
-      background-position: center center;
-      margin: 0; } }
-  @media (max-width: 360px) {
-    .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
-      background: none; }
-    .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
+
+@media (max-width: 780px) {
+  .contacto .contacto__contacto-index {
+    background-position: center center;
+    margin: 0; } }
+
+@media (max-width: 400px) {
+  .contacto .contacto__contacto-index {
+    background: none; }
+    .contacto .contacto__contacto-index button {
       border-radius: 10px 10px 10px 10px;
-      padding-left: -60px; }
-      .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
-        text-decoration: none;
-        font-size: 4rem;
-        padding-left: 60px; } }
+      padding-right: 30px; }
+    .contacto .contacto__contacto-index a {
+      text-decoration: none;
+      font-size: 2.5rem; } }
 
 /*banner principal y blog*/
 /*maps*/
@@ -672,7 +672,8 @@ body {
   .seccionServicio .seccionServicio__servicio h3 {
     margin-top: 5rem;
     letter-spacing: 5px;
-    font-size: 20px; }
+    font-size: 20px;
+    color: #a8ce21; }
   .seccionServicio .seccionServicio__servicio:hover {
     opacity: .9; }
   .seccionServicio .seccionServicio__servicio p {
@@ -706,6 +707,26 @@ body {
 
 .seccionServicio .seccionServicio__boxSeis {
   grid-area: navio; }
+
+@media (max-width: 780px) {
+  .seccionServicio
+.seccionServicio__servicio {
+    display: flex;
+    flex-direction: column; }
+    .seccionServicio
+.seccionServicio__servicio img {
+      display: none; }
+    .seccionServicio
+.seccionServicio__servicio h3 {
+      letter-spacing: 3px;
+      font-size: 20px; }
+    .seccionServicio
+.seccionServicio__servicio p {
+      font: "Oxygen", sans-serif;
+      margin: 5px;
+      text-align: center;
+      padding-top: 2rem;
+      font-size: 2rem; } }
 
 /*Contacto*/
 .inicioForm {

@@ -334,10 +334,11 @@ background-attachment: fixed;
          
     
     }
+}}
     @media (max-width:780px){
         .contacto{
         .contacto__contacto-index{
-            background: none;
+            
             
             background-position: center center;
             margin: 0;
@@ -346,20 +347,21 @@ background-attachment: fixed;
        
     
     }
-    @media (max-width:360px){
+    @media (max-width:400px){
        
-         .contacto{   
+    .contacto{   
         .contacto__contacto-index{
             background: none;
-        }
-        .contacto__btn-contacto{
+        
+        button{
             border-radius: 10px 10px 10px 10px;
-            padding-left: -60px;
-             a{
+            padding-right: 30px;}
+        a{
             text-decoration: none;
-            font-size: 4rem;
-            padding-left: 60px;
+            font-size: 2.5rem;
+          
            }
+        
             
         }}
     }
@@ -367,8 +369,7 @@ background-attachment: fixed;
        
         
         
-    
-}
+ 
 
 
-}
+
