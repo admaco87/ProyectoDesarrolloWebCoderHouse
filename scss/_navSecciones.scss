@@ -2,26 +2,22 @@
 @import 'vars';
 @import 'main';
 @import 'font';
+@import 'menu';
 
 
 
 
 
-.secundario{
 
-    top: 0;
-    width: 100%;
-    max-height: 120px;
-    
-
-}
 
 .titulosecundario{
         .titulosecundario__inicioBanner {
            @include subtitle;
            color: #d5d4d0;
+           
             
         }
+    
         
     
 }

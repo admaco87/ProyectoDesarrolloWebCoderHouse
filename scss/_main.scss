@@ -36,37 +36,11 @@ body{
         margin-bottom: auto;
     }
 
-    .headerPrincipal__navegacion{
-        font-size: 12px;
-        display: flex;
-        justify-content: space-between;
-        a{
-            color: white;
-            text-decoration: none;
-            font-size: 1.7rem;
-            margin-right: 2rem;
-            padding-top: 2rem;   
-            padding-left: 2rem;
-          }
-        a:hover{
-            color: $principal-color;
-            transition: all 1s ease-out;
-            text-decoration: none;
-            
-        }
-        .headerPrincipal__logo{
-            justify-content:flex-start;
-            width: 15rem;
-        }
-      
-
+    
     
 }
 
-    .headerPrincipal__barra{
-        margin-top: 4rem;
     
-    }
     
   
 
@@ -127,7 +101,6 @@ body{
         }
 
     }
-}
 
 .bg-gral--modifier{
 background-attachment: fixed;
@@ -147,7 +120,8 @@ background-attachment: fixed;
     }
     .test-text{
     
-        .centrar-texto{   font-family: $font-h3;
+        .centrar-texto{   
+            font-family: $font-h3;
             font-size: 4rem;
             color: #ff8f4e;
            font-weight: 500;
