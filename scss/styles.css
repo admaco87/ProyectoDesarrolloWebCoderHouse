@@ -214,6 +214,13 @@ body {
 }
 
 @media (max-width: 578px) {
+  .segundaSeccion h2 {
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: start;
+  }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: -ms-grid;
@@ -253,6 +260,13 @@ body {
 }
 
 @media (max-width: 778px) {
+  .segundaSeccion h2 {
+    font-size: 2.5rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: center;
+  }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: -ms-grid;
@@ -329,17 +343,18 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
     background: none;
   }
   .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
     border-radius: 10px 10px 10px 10px;
+    padding-left: -60px;
   }
   .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
     text-decoration: none;
     font-size: 4rem;
-    margin: 0px;
+    padding-left: 60px;
   }
 }
 
@@ -670,6 +685,13 @@ body {
 }
 
 @media (max-width: 578px) {
+  .segundaSeccion h2 {
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: start;
+  }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: -ms-grid;
@@ -709,6 +731,13 @@ body {
 }
 
 @media (max-width: 778px) {
+  .segundaSeccion h2 {
+    font-size: 2.5rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: center;
+  }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: -ms-grid;
@@ -785,17 +814,18 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
     background: none;
   }
   .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
     border-radius: 10px 10px 10px 10px;
+    padding-left: -60px;
   }
   .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
     text-decoration: none;
     font-size: 4rem;
-    margin: 0px;
+    padding-left: 60px;
   }
 }
 

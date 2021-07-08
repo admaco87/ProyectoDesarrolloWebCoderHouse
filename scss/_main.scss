@@ -146,19 +146,10 @@ background-attachment: fixed;
             font-family: $text-font;
         
         }
-    }
-        
-     
-       
-        
-      
-        
-        
-        
-       
+    }      
     
 }
-    @media(max-width:780px){
+@media(max-width:780px){
     .test-princ{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -219,6 +210,13 @@ background-attachment: fixed;
         }
     
     @media(max-width:578px){
+        h2 {
+            font-size: 2rem;
+            font-family:fantasy;
+            font-weight: lighter;
+            color: #eee;
+            text-align: start;
+        }
         .segundaSeccion__iconos-nosotros{
             width: 70%;
             display: grid;
@@ -228,19 +226,19 @@ background-attachment: fixed;
         
     
     }
-    .segundaSeccion__iconos-nosotros{
-        display: flex;
-        justify-content: space-between;
-        margin: 0% 10%;
-    }
-    .segundaSeccion__iconos{
-        flex-basis: calc(33.3% - 1rem);
-        text-align: center;
-        .segundaSeccion__subtitulo{
-            text-transform: uppercase;
-            font-size: 2rem;
-            padding-bottom: 01.5rem;
-            }
+        .segundaSeccion__iconos-nosotros{
+            display: flex;
+            justify-content: space-between;
+            margin: 0% 10%;
+        }
+        .segundaSeccion__iconos{
+            flex-basis: calc(33.3% - 1rem);
+            text-align: center;
+            .segundaSeccion__subtitulo{
+                text-transform: uppercase;
+                font-size: 2rem;
+                padding-bottom: 01.5rem;
+                }
         p{
             font-size: 1.7rem;
             padding-bottom: 01.5rem;
@@ -251,6 +249,13 @@ background-attachment: fixed;
     }
     
     @media (max-width:778px){
+        h2 {
+            font-size: 2.5rem;
+            font-family:fantasy;
+            font-weight: lighter;
+            color: #eee;
+           text-align: center;
+        }
         .segundaSeccion__iconos-nosotros{
             width: 70%;
             display: grid;
@@ -341,18 +346,19 @@ background-attachment: fixed;
        
     
     }
-    @media (max-width:480px){
-        .contacto{
-               
+    @media (max-width:360px){
+       
+         .contacto{   
         .contacto__contacto-index{
             background: none;
         }
         .contacto__btn-contacto{
             border-radius: 10px 10px 10px 10px;
+            padding-left: -60px;
              a{
             text-decoration: none;
             font-size: 4rem;
-            margin: 0px;
+            padding-left: 60px;
            }
             
         }}

@@ -167,6 +167,12 @@ body {
   margin-left: 30%; }
 
 @media (max-width: 578px) {
+  .segundaSeccion h2 {
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: start; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: grid;
@@ -191,6 +197,12 @@ body {
     line-height: 02.01rem; }
 
 @media (max-width: 778px) {
+  .segundaSeccion h2 {
+    font-size: 2.5rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: center; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: grid;
@@ -247,15 +259,16 @@ body {
       background: none;
       background-position: center center;
       margin: 0; } }
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
       background: none; }
     .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
-      border-radius: 10px 10px 10px 10px; }
+      border-radius: 10px 10px 10px 10px;
+      padding-left: -60px; }
       .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
         text-decoration: none;
         font-size: 4rem;
-        margin: 0px; } }
+        padding-left: 60px; } }
 
 .foot .foot__pie-footer {
   background-color: darkgray;
@@ -491,6 +504,12 @@ body {
   margin-left: 30%; }
 
 @media (max-width: 578px) {
+  .segundaSeccion h2 {
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: start; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: grid;
@@ -515,6 +534,12 @@ body {
     line-height: 02.01rem; }
 
 @media (max-width: 778px) {
+  .segundaSeccion h2 {
+    font-size: 2.5rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #eee;
+    text-align: center; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
     display: grid;
@@ -571,15 +596,16 @@ body {
       background: none;
       background-position: center center;
       margin: 0; } }
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     .contacto .contacto__btn-contacto .contacto .contacto__contacto-index {
       background: none; }
     .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto {
-      border-radius: 10px 10px 10px 10px; }
+      border-radius: 10px 10px 10px 10px;
+      padding-left: -60px; }
       .contacto .contacto__btn-contacto .contacto .contacto__btn-contacto a {
         text-decoration: none;
         font-size: 4rem;
-        margin: 0px; } }
+        padding-left: 60px; } }
 
 /*banner principal y blog*/
 /*maps*/
