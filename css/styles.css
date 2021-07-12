@@ -743,7 +743,7 @@ body {
     .seccionServicio
 .seccionServicio__servicio p {
       font: "Oxygen", sans-serif;
-      color: blue;
+      color: #d81f1f;
       margin: 5px;
       text-align: center;
       padding-top: 2rem;

@@ -155,6 +155,7 @@
             background-image: url(../img/anuncio2.jpg);
             background-position: center;
             background-size: cover;
+           
         }
         .seccionServicio__boxSeis{
             background-image: url(../img/anuncio3.jpg);
@@ -171,7 +172,7 @@
         }
         p{
             font: $text-font;
-            color:blue;
+            color:rgb(216, 31, 31);
             margin: 5px;
             text-align: center;
             padding-top: 2rem;
