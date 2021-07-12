@@ -648,12 +648,17 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 2rem; }
-    .nosotros-contenido .nosotros-contenido__contenido-nosotros .nosotros-contenido__texto-nosotros p {
-      font: "Oxygen", sans-serif;
-      margin: 1.5rem;
-      text-align: justify;
-      padding-top: 15rem;
-      font-size: 2rem; }
+    .nosotros-contenido .nosotros-contenido__contenido-nosotros .nosotros-contenido__texto-nosotros {
+      background-image: url(../img/nosotros-prin.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; }
+      .nosotros-contenido .nosotros-contenido__contenido-nosotros .nosotros-contenido__texto-nosotros p {
+        font: "Oxygen", sans-serif;
+        margin: 1.5rem;
+        text-align: justify;
+        padding-top: 15rem;
+        font-size: 2rem; }
     .nosotros-contenido .nosotros-contenido__contenido-nosotros .nosotros-contenido__imagen img {
       display: none; } }
 
@@ -717,12 +722,28 @@ body {
 .seccionServicio__servicio img {
       display: none; }
     .seccionServicio
+.seccionServicio__servicio .seccionServicio__boxDos {
+      background-image: url(../img/anuncio1.jpg);
+      background-position: center;
+      background-size: cover; }
+    .seccionServicio
+.seccionServicio__servicio .seccionServicio__boxTres {
+      background-image: url(../img/anuncio2.jpg);
+      background-position: center;
+      background-size: cover; }
+    .seccionServicio
+.seccionServicio__servicio .seccionServicio__boxSeis {
+      background-image: url(../img/anuncio3.jpg);
+      background-position: center;
+      background-size: cover; }
+    .seccionServicio
 .seccionServicio__servicio h3 {
       letter-spacing: 3px;
       font-size: 20px; }
     .seccionServicio
 .seccionServicio__servicio p {
       font: "Oxygen", sans-serif;
+      color: blue;
       margin: 5px;
       text-align: center;
       padding-top: 2rem;
