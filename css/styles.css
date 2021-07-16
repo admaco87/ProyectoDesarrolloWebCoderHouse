@@ -958,8 +958,8 @@ body {
     text-align: center;
     padding: 2rem 0; }
   .conteiner {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     margin: 1em auto;
     display: flex;
     justify-content: space-between;
