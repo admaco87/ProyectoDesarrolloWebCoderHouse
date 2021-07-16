@@ -235,6 +235,7 @@
         text-transform: uppercase;
         height: 3rem;
         font-weight: 700;
+        margin-left: 0px;
         &:hover{
             cursor: pointer;
             transform: translateY(-3px);
@@ -282,11 +283,16 @@
        height: 19rem;
    }
   .contacto{
+      
    .contacto__btn-contacto--modifier{
-       width: 50%;
+       width: 100%;
        text-transform: uppercase;
        height: 3rem;
        font-weight: 700;
+       font-size: 1.5rem;
+      
+       
+       
        &:hover{
            cursor: pointer;
            transform: translateY(-3px);

@@ -789,7 +789,8 @@ body {
     width: 50%;
     text-transform: uppercase;
     height: 3rem;
-    font-weight: 700; }
+    font-weight: 700;
+    margin-left: 0px; }
     .inicioForm .contacto .contacto__btn-contacto--modifier:hover {
       cursor: pointer;
       transform: translateY(-3px);
@@ -825,10 +826,11 @@ body {
     .inicioForm .comentario {
       height: 19rem; }
     .inicioForm .contacto .contacto__btn-contacto--modifier {
-      width: 50%;
+      width: 100%;
       text-transform: uppercase;
       height: 3rem;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 1.5rem; }
       .inicioForm .contacto .contacto__btn-contacto--modifier:hover {
         cursor: pointer;
         transform: translateY(-3px);

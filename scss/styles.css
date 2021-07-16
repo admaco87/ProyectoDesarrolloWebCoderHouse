@@ -214,12 +214,13 @@ body {
 }
 
 @media (max-width: 578px) {
-  .segundaSeccion h2 {
-    font-size: 2rem;
+  .segundaSeccion .segundaSeccion__centrado {
+    font-size: 1.7rem;
     font-family: fantasy;
     font-weight: lighter;
     color: #eee;
     text-align: start;
+    margin-left: 20px;
   }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
@@ -260,12 +261,13 @@ body {
 }
 
 @media (max-width: 778px) {
-  .segundaSeccion h2 {
+  .segundaSeccion .segundaSeccion__centrado {
     font-size: 2.5rem;
     font-family: fantasy;
     font-weight: lighter;
     color: #eee;
-    text-align: center;
+    text-align: start;
+    margin-left: 80px;
   }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
@@ -342,7 +344,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 578px) {
   .contacto .contacto__contacto-index {
     background: none;
   }
@@ -353,6 +355,9 @@ body {
   .contacto .contacto__contacto-index a {
     text-decoration: none;
     font-size: 2.5rem;
+  }
+  .contacto .contacto__btn-contacto {
+    margin-left: -50px;
   }
 }
 
@@ -683,12 +688,13 @@ body {
 }
 
 @media (max-width: 578px) {
-  .segundaSeccion h2 {
-    font-size: 2rem;
+  .segundaSeccion .segundaSeccion__centrado {
+    font-size: 1.7rem;
     font-family: fantasy;
     font-weight: lighter;
     color: #eee;
     text-align: start;
+    margin-left: 20px;
   }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
@@ -729,12 +735,13 @@ body {
 }
 
 @media (max-width: 778px) {
-  .segundaSeccion h2 {
+  .segundaSeccion .segundaSeccion__centrado {
     font-size: 2.5rem;
     font-family: fantasy;
     font-weight: lighter;
     color: #eee;
-    text-align: center;
+    text-align: start;
+    margin-left: 80px;
   }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
     width: 70%;
@@ -811,7 +818,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 578px) {
   .contacto .contacto__contacto-index {
     background: none;
   }
@@ -822,6 +829,9 @@ body {
   .contacto .contacto__contacto-index a {
     text-decoration: none;
     font-size: 2.5rem;
+  }
+  .contacto .contacto__btn-contacto {
+    margin-left: -50px;
   }
 }
 
@@ -1066,6 +1076,7 @@ body {
   text-transform: uppercase;
   height: 3rem;
   font-weight: 700;
+  margin-left: 0px;
 }
 
 .inicioForm .contacto .contacto__btn-contacto--modifier:hover {
@@ -1075,6 +1086,56 @@ body {
   -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
   color: black;
+}
+
+@media (max-width: 480px) {
+  .inicioForm {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%, #ffffff 100%);
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    -webkit-box-shadow: 7px 13px 37px gray;
+            box-shadow: 7px 13px 37px gray;
+  }
+  .inicioForm h1 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .inicioForm .inicioForm__control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  .inicioForm .comentario {
+    height: 19rem;
+  }
+  .inicioForm .contacto .contacto__btn-contacto--modifier {
+    width: 100%;
+    text-transform: uppercase;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .inicioForm .contacto .contacto__btn-contacto--modifier:hover {
+    cursor: pointer;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
+    color: black;
+  }
 }
 
 /*Blog*/
@@ -1235,6 +1296,63 @@ body {
   background: url(../img/img-blog5.png);
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 480px) {
+  .titulo-blog {
+    font-family: "Fredoka One", cursive;
+    font-size: 6rem;
+    color: #a8ce21;
+    text-align: center;
+    padding-bottom: 30rem;
+    position: relative;
+  }
+  .titulo-blog:hover {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  .principalTex {
+    font-family: 'Fredoka One', cursive;
+    color: #000080;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .conteiner {
+    width: 200px;
+    height: 100px;
+    margin: 1em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .conteiner:hover {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .conteiner a {
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Bangers', cursive;
+  }
 }
 
 /*banner principal y blog*/
