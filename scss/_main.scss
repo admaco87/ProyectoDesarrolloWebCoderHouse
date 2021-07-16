@@ -210,12 +210,14 @@ background-attachment: fixed;
         }
     
     @media(max-width:578px){
-        h2 {
-            font-size: 2rem;
+        .segundaSeccion__centrado{
+            font-size: 1.7rem;
             font-family:fantasy;
             font-weight: lighter;
             color: #eee;
             text-align: start;
+            margin-left: 20px;
+            
         }
         .segundaSeccion__iconos-nosotros{
             width: 70%;
@@ -249,12 +251,13 @@ background-attachment: fixed;
     }
     
     @media (max-width:778px){
-        h2 {
+        .segundaSeccion__centrado{
             font-size: 2.5rem;
             font-family:fantasy;
             font-weight: lighter;
             color: #eee;
-           text-align: center;
+           text-align: start;
+           margin-left: 80px;
         }
         .segundaSeccion__iconos-nosotros{
             width: 70%;
@@ -347,7 +350,7 @@ background-attachment: fixed;
        
     
     }
-    @media (max-width:400px){
+    @media (max-width:578px){
        
     .contacto{   
         .contacto__contacto-index{
@@ -363,7 +366,13 @@ background-attachment: fixed;
            }
         
             
-        }}
+        }
+        .contacto__btn-contacto{
+            margin-left: -50px;
+        }
+    
+    }
+       
     }
        
         
