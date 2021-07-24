@@ -153,7 +153,7 @@ body {
 
 .test-princ .test-text blockquote {
   font-size: 1.7rem;
-  color: #ff81ca;
+  color: #71DC9A;
   text-align: justify;
   padding-right: 25px;
   border-radius: 2rem;
@@ -187,7 +187,7 @@ body {
   }
   .test-princ .test-text blockquote {
     font-size: 1.2rem;
-    color: #ff81ca;
+    color: #71DC9A;
     text-align: center;
     padding-right: 25px;
     position: relative;
@@ -206,11 +206,25 @@ body {
 
 .segundaSeccion h3 {
   text-transform: uppercase;
+  margin-top: 1.5rem;
 }
 
 .segundaSeccion .segundaSeccion__centrado {
   margin: 2em 0;
   margin-left: 30%;
+}
+
+.segundaSeccion .segundaSeccion__iconos-nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: calc(33.3% - 2rem);
+      flex-basis: calc(33.3% - 2rem);
+  text-align: center;
+  margin: 1.5rem;
 }
 
 @media (max-width: 578px) {
@@ -627,7 +641,7 @@ body {
 
 .test-princ .test-text blockquote {
   font-size: 1.7rem;
-  color: #ff81ca;
+  color: #71DC9A;
   text-align: justify;
   padding-right: 25px;
   border-radius: 2rem;
@@ -661,7 +675,7 @@ body {
   }
   .test-princ .test-text blockquote {
     font-size: 1.2rem;
-    color: #ff81ca;
+    color: #71DC9A;
     text-align: center;
     padding-right: 25px;
     position: relative;
@@ -680,11 +694,25 @@ body {
 
 .segundaSeccion h3 {
   text-transform: uppercase;
+  margin-top: 1.5rem;
 }
 
 .segundaSeccion .segundaSeccion__centrado {
   margin: 2em 0;
   margin-left: 30%;
+}
+
+.segundaSeccion .segundaSeccion__iconos-nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: calc(33.3% - 2rem);
+      flex-basis: calc(33.3% - 2rem);
+  text-align: center;
+  margin: 1.5rem;
 }
 
 @media (max-width: 578px) {

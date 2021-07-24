@@ -132,7 +132,7 @@ background-attachment: fixed;
         
         blockquote{
             font-size: 1.7rem;
-        color:#ff81ca;
+        color:#71DC9A;
        
         text-align: justify;
         padding-right: 25px;
@@ -169,7 +169,7 @@ background-attachment: fixed;
               
         blockquote{
             font-size: 1.2rem;
-        color:#ff81ca;
+        color:#71DC9A;
         text-align:center;
         padding-right: 25px;
        
@@ -193,6 +193,7 @@ background-attachment: fixed;
 
 
 .segundaSeccion{
+    
     h2{
     
         font-size: 3rem;
@@ -203,12 +204,24 @@ background-attachment: fixed;
 
     h3{
         text-transform: uppercase;
+        margin-top: 1.5rem;
     }
     .segundaSeccion__centrado{
         margin: 2em 0;
         margin-left: 30% ;
         }
+    .segundaSeccion__iconos-nosotros{
     
+        display: flex;
+        justify-content: space-between;
+        flex-basis: calc(33.3% - 2rem);
+        text-align: center;
+        margin: 1.5rem;
+        
+    }
+    
+
+
     @media(max-width:578px){
         .segundaSeccion__centrado{
             font-size: 1.7rem;
