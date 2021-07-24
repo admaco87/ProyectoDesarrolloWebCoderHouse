@@ -39,21 +39,8 @@ body{
     
     
 }
-
-    
-    
-  
-
-    
-
-    .headerPrincipal__titulo{
-        padding-bottom: 3rem;
-        color: #fd1612;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 5rem;
-        width: 90%;
-        margin-left: 5%;
-        
+.headerPrincipal__titulo{
+        margin: 5%;
         
     }
     
@@ -63,11 +50,7 @@ body{
         display: inline-block;
     }
 
-    .headerPrincipal__titulo--modifier{
-        font-family:'Montserrat', sans-serif ;
-        color: $principal-color;
-
-    }
+    
 
     @media (max-width:780px){
         .headerPrincipal__site-header.inicio{
@@ -81,7 +64,7 @@ body{
             display: none;
         }
         .headerPrincipal__titulo{
-            font-size: 3rem;
+            margin: 5%;
         }
 
     }
@@ -97,7 +80,9 @@ body{
             display: none;
         }
         .headerPrincipal__titulo{
-            font-size: 2rem;
+            height: 40%;
+            width: 100%;
+            margin: 10%;
         }
 
     }
