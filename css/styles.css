@@ -126,7 +126,7 @@ body {
 @media (max-width: 780px) {
   .test-princ {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 2rem;
     text-align: center; }
     .test-princ .test-imagen {
@@ -468,7 +468,7 @@ body {
 @media (max-width: 780px) {
   .test-princ {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 2rem;
     text-align: center; }
     .test-princ .test-imagen {
@@ -843,11 +843,11 @@ body {
 
 /*Blog*/
 .entrada-bg {
-  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+  background: linear-gradient(0deg, #82b5d2 13%, #a1c8df 60%);
   background-attachment: fixed; }
 
 .blog {
-  background-image: url(../img/bg-blog3.png);
+  background-image: url(../img/headerblogE.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -885,7 +885,7 @@ body {
 .titulo-blog {
   font-family: "Fredoka One", cursive;
   font-size: 9rem;
-  color: #a8ce21;
+  color: #FCE94E;
   text-align: center;
   padding-bottom: 30rem;
   position: relative; }
@@ -894,7 +894,7 @@ body {
 
 .principalTex {
   font-family: 'Fredoka One', cursive;
-  color: #000080;
+  color: wheat;
   font-size: 5rem;
   text-align: center;
   padding: 2rem 0; }
@@ -921,31 +921,36 @@ body {
     font-family: 'Bangers', cursive; }
 
 .conteiner.primeraFoto {
-  background: url(../img/img-blog1.png);
+  background: url(../img/imgblog1.svg);
   background-size: cover;
   background-position: center; }
 
 .conteiner.segundaFoto {
-  background: url(../img/img-blog2.png);
+  background: url(../img/img-blog2.svg);
   background-size: cover;
   background-position: center; }
 
 .conteiner.terceraFoto {
-  background: url(../img/img-blog3.png);
+  background: url(../img/img-blog3.svg);
   background-size: cover;
   background-position: center; }
 
 .conteiner.cuartaFoto {
-  background: url(../img/img-blog4.png);
+  background: url(../img/img-blog4.svg);
   background-size: cover;
   background-position: center; }
 
 .conteiner.quintaFoto {
-  background: url(../img/img-blog5.png);
+  background: url(../img/img-blog5.svg);
   background-size: cover;
   background-position: center; }
 
 @media (max-width: 480px) {
+  background-image: url(../img/headerblogM.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
   .titulo-blog {
     font-family: "Fredoka One", cursive;
     font-size: 6rem;
@@ -954,7 +959,7 @@ body {
     padding-bottom: 30rem;
     position: relative; }
     .titulo-blog:hover {
-      transform: translateX(25px); }
+      transform: none; }
   .principalTex {
     font-family: 'Fredoka One', cursive;
     color: #000080;
