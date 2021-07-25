@@ -721,34 +721,32 @@ body {
   text-align: end; }
 
 .seccionServicio .seccionServicio__boxSeis {
-  grid-area: navio; }
+  grid-area: navio;
+  text-align: start; }
 
 @media (max-width: 780px) {
   .seccionServicio
 .seccionServicio__servicio {
-    display: flex;
-    flex-direction: column; }
+    display: list-item; }
     .seccionServicio
 .seccionServicio__servicio img {
       display: none; }
     .seccionServicio
 .seccionServicio__servicio .seccionServicio__boxDos {
-      background-image: url(../img/anuncio1.jpg);
+      background-image: url(../img/anuncioM1.jpg);
       background-position: center;
-      background-size: cover;
-      height: 80%; }
+      background-size: cover; }
     .seccionServicio
 .seccionServicio__servicio .seccionServicio__boxTres {
-      background-image: url(../img/anuncio2.jpg);
+      background-image: url(../img/anuncioM2.jpg);
       background-position: center;
-      background-size: cover;
-      height: 80%; }
+      background-size: cover; }
     .seccionServicio
 .seccionServicio__servicio .seccionServicio__boxSeis {
-      background-image: url(../img/anuncio3.jpg);
+      background-image: url(../img/anuncioM3.jpg);
       background-position: center;
       background-size: cover;
-      height: 80%; }
+      height: 100%; }
     .seccionServicio
 .seccionServicio__servicio h3 {
       letter-spacing: 3px;
@@ -756,11 +754,12 @@ body {
     .seccionServicio
 .seccionServicio__servicio p {
       font: "Oxygen", sans-serif;
-      color: #d81f1f;
+      color: black;
       margin: 5px;
       text-align: center;
       padding-top: 2rem;
-      font-size: 2rem; } }
+      font-size: 2rem;
+      font-weight: 600; } }
 
 /*Contacto*/
 .inicioForm {
