@@ -46,7 +46,7 @@ $font-blog:'Fredoka One', cursive;
         opacity: 80%;
     }
     @else if $imagen == imgBlog{
-        background-image: url(../img/headerblogE.jpg);
+        background-image: url(../img/headerblog2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -54,7 +54,7 @@ $font-blog:'Fredoka One', cursive;
     }
 
     @else  {
-    background-image: url(../img/headerblogM.jpg);
+    background-image: url(../img/headerblog2M.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

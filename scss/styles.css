@@ -189,6 +189,15 @@ body {
   }
 }
 
+.carrusel h2 {
+  font-size: 3rem;
+  font-family: fantasy;
+  font-weight: lighter;
+  color: #eee;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .segundaSeccion h2 {
   font-size: 3rem;
   font-family: fantasy;
@@ -667,6 +676,15 @@ body {
     font-weight: 100px;
     font-family: "Oxygen", sans-serif;
   }
+}
+
+.carrusel h2 {
+  font-size: 3rem;
+  font-family: fantasy;
+  font-weight: lighter;
+  color: #eee;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .segundaSeccion h2 {
@@ -1149,13 +1167,13 @@ body {
 
 /*Blog*/
 .entrada-bg {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(13%, #82b5d2), color-stop(60%, #a1c8df));
-  background: linear-gradient(0deg, #82b5d2 13%, #a1c8df 60%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#5f6163), color-stop(13%, #010001));
+  background: linear-gradient(0deg, #5f6163 0%, #010001 13%);
   background-attachment: fixed;
 }
 
 .blog {
-  background-image: url(../img/headerblogE.jpg);
+  background-image: url(../img/headerblog2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1181,40 +1199,6 @@ body {
   max-width: 1200px;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.blog .navegacion {
-  font-size: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 2rem;
-}
-
-.blog .navegacion a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.7rem;
-  margin-right: 2rem;
-  padding-top: 2rem;
-  padding-left: 2rem;
-}
-
-.blog .navegacion a:hover {
-  color: #a8ce21;
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-  text-decoration: none;
-}
-
-.blog .navegacion .logo {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 15rem;
 }
 
 .titulo-blog {
@@ -1308,15 +1292,32 @@ body {
 }
 
 @media (max-width: 480px) {
-  background-image: url(../img/headerblogM.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center center;
+  .blog {
+    background-image: url(../img/headerblog2M.jpg);
+  }
+  .blog .site-inicio {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+  }
+  .blog .contenedor {
+    max-width: 1200px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
   .titulo-blog {
     font-family: "Fredoka One", cursive;
     font-size: 6rem;
-    color: #a8ce21;
+    color: #FCE94E;
     text-align: center;
     padding-bottom: 30rem;
     position: relative;
@@ -1327,7 +1328,7 @@ body {
   }
   .principalTex {
     font-family: 'Fredoka One', cursive;
-    color: #000080;
+    color: wheat;
     font-size: 2rem;
     text-align: center;
     padding: 2rem 0;
