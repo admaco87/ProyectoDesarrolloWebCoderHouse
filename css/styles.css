@@ -750,6 +750,9 @@ body {
       background-image: url(../img/anuncioM1.jpg);
       background-position: center;
       background-size: cover; }
+      .seccionServicio
+.seccionServicio__servicio .seccionServicio__boxDos p {
+        color: white; }
     .seccionServicio
 .seccionServicio__servicio .seccionServicio__boxTres {
       background-image: url(../img/anuncioM2.jpg);
@@ -761,6 +764,9 @@ body {
       background-position: center;
       background-size: cover;
       height: 100%; }
+      .seccionServicio
+.seccionServicio__servicio .seccionServicio__boxSeis p {
+        color: white; }
     .seccionServicio
 .seccionServicio__servicio h3 {
       letter-spacing: 3px;
@@ -768,7 +774,7 @@ body {
     .seccionServicio
 .seccionServicio__servicio p {
       font: "Oxygen", sans-serif;
-      color: white;
+      color: #273B59;
       margin: 5px;
       text-align: center;
       padding-top: 2rem;
