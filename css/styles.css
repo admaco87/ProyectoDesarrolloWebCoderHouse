@@ -214,7 +214,7 @@ body {
     text-align: start;
     margin-left: 80px; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
-    width: 70%;
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(2 1fr);
     margin-top: 1.5rem; } }
@@ -563,7 +563,7 @@ body {
     text-align: start;
     margin-left: 80px; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
-    width: 70%;
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(2 1fr);
     margin-top: 1.5rem; } }
@@ -647,7 +647,7 @@ body {
   padding: 2.5rem 1.5rem;
   margin: 0rem 0;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 15px;
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
   color: #d5d4d0; }
@@ -738,7 +738,7 @@ body {
   grid-area: navio;
   text-align: start; }
 
-@media (max-width: 780px) {
+@media (max-width: 480px) {
   .seccionServicio
 .seccionServicio__servicio {
     display: list-item; }
@@ -820,6 +820,42 @@ body {
       transform: translateY(-3px);
       transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
       color: black; }
+
+.newletter .suscribe__newletter {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 7px 13px 37px #eee;
+  border-radius: 15px 15px 15px 15px;
+  margin: 10%; }
+  .newletter .suscribe__newletter .newletter__txt p {
+    font-family: "Jomhuria", cursive;
+    font-size: 4rem;
+    color: #d5d4d0;
+    margin-top: 1.5rem;
+    text-transform: uppercase; }
+  .newletter .suscribe__newletter .newletter__txt .newletter__btn {
+    background-image: linear-gradient(to right, #abbaab 0%, #ffffff 51%, #abbaab 100%);
+    margin: auto;
+    padding: 8px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block; }
+    .newletter .suscribe__newletter .newletter__txt .newletter__btn:hover {
+      background-position: right center;
+      /* change the direction of the change here */
+      background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%); }
+    .newletter .suscribe__newletter .newletter__txt .newletter__btn a {
+      text-decoration: none;
+      font-size: 2.5rem;
+      font-family: "Jomhuria", cursive;
+      text-transform: uppercase; }
+      .newletter .suscribe__newletter .newletter__txt .newletter__btn a:hover {
+        color: black; }
 
 @media (max-width: 480px) {
   .inicioForm {
@@ -946,11 +982,66 @@ body {
   background-size: cover;
   background-position: center; }
 
+@media (max-width: 800px) {
+  .blog {
+    background-image: url(../img/headerblogT.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto; }
+    .blog .site-inicio {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%; }
+    .blog .contenedor {
+      max-width: 1200px;
+      margin-top: auto;
+      margin-bottom: auto; }
+  .titulo-blog {
+    font-family: "Fredoka One", cursive;
+    font-size: 5rem;
+    color: #FCE94E;
+    text-align: center;
+    padding-bottom: 30rem;
+    position: relative; }
+    .titulo-blog:hover {
+      transform: none; }
+  .principalTex {
+    font-family: 'Fredoka One', cursive;
+    color: wheat;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0; }
+  .conteiner {
+    width: 300px;
+    height: 200px;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s; }
+    .conteiner:hover {
+      transform: scale(1.3); }
+    .conteiner a {
+      margin: 0;
+      width: 80%;
+      height: 100%;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-family: 'Bangers', cursive; } }
+
 @media (max-width: 480px) {
   .blog {
-    background-image: url(../img/headerblog2M.jpg); }
+    background-image: url(../img/headerblogT.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto; }
     .blog .site-inicio {
-      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -961,7 +1052,7 @@ body {
       margin-bottom: auto; }
   .titulo-blog {
     font-family: "Fredoka One", cursive;
-    font-size: 6rem;
+    font-size: 3.5rem;
     color: #FCE94E;
     text-align: center;
     padding-bottom: 30rem;
