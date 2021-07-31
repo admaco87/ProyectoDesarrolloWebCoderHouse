@@ -7,6 +7,8 @@ $color-litleT:white;
 $font-subtitle: 'Anton', sans-serif;
 $font-h3:'Jomhuria', cursive;
 $font-blog:'Fredoka One', cursive;
+$titulo-ex:'Shadows Into Light', cursive;
+$ux:'Shadows Into Light', cursive;
 
 @mixin subtitle {
     font-size: 2rem;
@@ -46,7 +48,7 @@ $font-blog:'Fredoka One', cursive;
         opacity: 80%;
     }
     @else if $imagen == imgBlog{
-        background-image: url(../img/headerblog2.jpg);
+        background-image: url(../img/bg-blog5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
