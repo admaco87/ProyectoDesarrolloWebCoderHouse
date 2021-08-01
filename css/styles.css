@@ -253,42 +253,6 @@ body {
   color: #fd1612;
   margin-bottom: 5rem; }
 
-/*Experiencia de usuarios*/
-.experiencia .experienciaUsuario {
-  display: grid;
-  grid-template-areas: 'exUn exUno expDo expdos';
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4);
-  gap: 2rem;
-  margin-top: 2rem; }
-  .experiencia .experienciaUsuario img {
-    height: auto;
-    width: auto;
-    max-height: 250px;
-    max-width: 250px; }
-  .experiencia .experienciaUsuario p {
-    font-family: "Shadows Into Light", cursive;
-    color: #eee;
-    font-size: 1.2rem;
-    text-decoration: aquamarine; }
-  .experiencia .experienciaUsuario .experienciaUsiario__uno {
-    grid-area: exUn;
-    text-align: end; }
-  .experiencia .experienciaUsuario .experienciaUsiario__dos {
-    grid-area: exUno;
-    text-align: start;
-    padding-top: 1rem;
-    max-width: 180px; }
-  .experiencia .experienciaUsuario .experienciaUsiario__tres {
-    grid-area: expDo;
-    text-align: start;
-    padding-top: 9rem;
-    max-width: 180px; }
-  .experiencia .experienciaUsuario .experienciaUsiario__cuatro {
-    grid-area: expdos;
-    text-align: end;
-    transform: scaleX(-1); }
-
 /* boton contacto*/
 .contacto .contacto__contacto-index {
   background-image: url(../img/contacbanner.svg);
@@ -639,42 +603,6 @@ body {
   color: #fd1612;
   margin-bottom: 5rem; }
 
-/*Experiencia de usuarios*/
-.experiencia .experienciaUsuario {
-  display: grid;
-  grid-template-areas: 'exUn exUno expDo expdos';
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4);
-  gap: 2rem;
-  margin-top: 2rem; }
-  .experiencia .experienciaUsuario img {
-    height: auto;
-    width: auto;
-    max-height: 250px;
-    max-width: 250px; }
-  .experiencia .experienciaUsuario p {
-    font-family: "Shadows Into Light", cursive;
-    color: #eee;
-    font-size: 1.2rem;
-    text-decoration: aquamarine; }
-  .experiencia .experienciaUsuario .experienciaUsiario__uno {
-    grid-area: exUn;
-    text-align: end; }
-  .experiencia .experienciaUsuario .experienciaUsiario__dos {
-    grid-area: exUno;
-    text-align: start;
-    padding-top: 1rem;
-    max-width: 180px; }
-  .experiencia .experienciaUsuario .experienciaUsiario__tres {
-    grid-area: expDo;
-    text-align: start;
-    padding-top: 9rem;
-    max-width: 180px; }
-  .experiencia .experienciaUsuario .experienciaUsiario__cuatro {
-    grid-area: expdos;
-    text-align: end;
-    transform: scaleX(-1); }
-
 /* boton contacto*/
 .contacto .contacto__contacto-index {
   background-image: url(../img/contacbanner.svg);
@@ -809,6 +737,88 @@ body {
     margin: 10px; }
     .nosotrosEmpresa .nosotrosEmpresa__logo img:hover {
       transform: scale(1.3); }
+
+@media (max-width: 780px) {
+  .nosotrosEmpresa .nosotrosEmpresa__Titulo {
+    font-size: 2rem;
+    padding: 2.5rem 1.5rem;
+    margin: 0rem 0;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    color: white; }
+  .nosotrosEmpresa .nosotrosEmpresa__logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    text-align: center; }
+    .nosotrosEmpresa .nosotrosEmpresa__logo img {
+      height: auto;
+      width: auto;
+      max-height: 120px;
+      max-width: 120px;
+      border-radius: 3px;
+      margin: 10px; } }
+
+@media (max-width: 500px) {
+  .nosotrosEmpresa .nosotrosEmpresa__Titulo {
+    font-size: 2rem;
+    padding: 2.5rem 1.5rem;
+    margin: 0rem 0;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    color: white; }
+  .nosotrosEmpresa .nosotrosEmpresa__logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    text-align: center; }
+    .nosotrosEmpresa .nosotrosEmpresa__logo img {
+      height: auto;
+      width: auto;
+      max-height: 120px;
+      max-width: 120px;
+      border-radius: 3px;
+      margin: 10px; } }
+
+/*Experiencia de usuarios*/
+.experiencia .experienciaUsuario {
+  display: grid;
+  grid-template-areas: 'exUn exUno expDo expdos';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4);
+  gap: 2rem;
+  margin-top: 2rem; }
+  .experiencia .experienciaUsuario img {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 250px; }
+  .experiencia .experienciaUsuario p {
+    font-family: "Shadows Into Light", cursive;
+    color: #eee;
+    font-size: 1.2rem;
+    text-decoration: aquamarine; }
+  .experiencia .experienciaUsuario .experienciaUsiario__uno {
+    grid-area: exUn;
+    text-align: end; }
+  .experiencia .experienciaUsuario .experienciaUsiario__dos {
+    grid-area: exUno;
+    text-align: start;
+    padding-top: 1rem;
+    max-width: 180px; }
+  .experiencia .experienciaUsuario .experienciaUsiario__tres {
+    grid-area: expDo;
+    text-align: start;
+    padding-top: 9rem;
+    max-width: 180px; }
+  .experiencia .experienciaUsuario .experienciaUsiario__cuatro {
+    grid-area: expdos;
+    text-align: end;
+    transform: scaleX(-1); }
 
 /*Servicio*/
 .seccionServicio .seccionServicio__servicio {
@@ -950,7 +960,8 @@ body {
   flex-direction: row;
   box-shadow: 7px 13px 37px #eee;
   border-radius: 15px 15px 15px 15px;
-  margin: 10%; }
+  margin: 10%;
+  justify-content: space-evenly; }
   .newletter .suscribe__newletter .newletter__txt p {
     font-family: "Jomhuria", cursive;
     font-size: 4rem;
@@ -980,6 +991,50 @@ body {
       text-transform: uppercase; }
       .newletter .suscribe__newletter .newletter__txt .newletter__btn a:hover {
         color: black; }
+  .newletter .suscribe__newletter .newletter__img {
+    max-height: 300px;
+    max-width: 300px; }
+
+@media (max-width: 696px) {
+  .newletter .suscribe__newletter {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 7px 13px 37px #eee;
+    border-radius: 15px 15px 15px 15px;
+    margin: 10%;
+    justify-content: space-evenly; }
+    .newletter .suscribe__newletter .newletter__txt p {
+      font-family: "Jomhuria", cursive;
+      font-size: 3rem;
+      color: #d5d4d0;
+      margin-top: 1rem;
+      text-transform: uppercase; }
+    .newletter .suscribe__newletter .newletter__txt .newletter__btn {
+      background-image: linear-gradient(to right, #abbaab 0%, #ffffff 51%, #abbaab 100%);
+      margin: auto;
+      padding: 8px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: block; }
+      .newletter .suscribe__newletter .newletter__txt .newletter__btn:hover {
+        background-position: right center;
+        /* change the direction of the change here */
+        background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%); }
+      .newletter .suscribe__newletter .newletter__txt .newletter__btn a {
+        text-decoration: none;
+        font-size: 2.5rem;
+        font-family: "Jomhuria", cursive;
+        text-transform: uppercase; }
+        .newletter .suscribe__newletter .newletter__txt .newletter__btn a:hover {
+          color: black; }
+    .newletter .suscribe__newletter .newletter__img {
+      max-height: 300px;
+      max-width: 300px; } }
 
 @media (max-width: 480px) {
   .inicioForm {
@@ -1019,7 +1074,48 @@ body {
         cursor: pointer;
         transform: translateY(-3px);
         transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
-        color: black; } }
+        color: black; }
+  .newletter .suscribe__newletter {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 7px 13px 37px #eee;
+    border-radius: 15px 15px 15px 15px;
+    margin: 10%;
+    background-image: url(../img/Newletter.png);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat; }
+    .newletter .suscribe__newletter .newletter__txt p {
+      font-family: "Jomhuria", cursive;
+      font-size: 2.5rem;
+      color: #d5d4d0;
+      margin-top: 1rem;
+      text-transform: uppercase; }
+    .newletter .suscribe__newletter .newletter__txt .newletter__btn {
+      background-image: linear-gradient(to right, #abbaab 0%, #ffffff 51%, #abbaab 100%);
+      margin: auto;
+      padding: 8px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: block; }
+      .newletter .suscribe__newletter .newletter__txt .newletter__btn:hover {
+        background-position: right center;
+        /* change the direction of the change here */
+        background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%); }
+      .newletter .suscribe__newletter .newletter__txt .newletter__btn a {
+        text-decoration: none;
+        font-size: 2.5rem;
+        font-family: "Jomhuria", cursive;
+        text-transform: uppercase; }
+        .newletter .suscribe__newletter .newletter__txt .newletter__btn a:hover {
+          color: black; }
+    .newletter .suscribe__newletter .newletter__img {
+      display: none; } }
 
 /*Blog*/
 .entrada-bg {
