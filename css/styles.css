@@ -1127,7 +1127,7 @@ body {
   .inicioForm {
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%, #ffffff 100%);
-    width: 300px;
+    width: 350px;
     padding: 30px;
     margin: auto;
     margin-top: 20px;
@@ -1171,7 +1171,7 @@ body {
     flex-direction: row;
     box-shadow: 7px 13px 37px #eee;
     border-radius: 15px 15px 15px 15px;
-    margin: 15%;
+    margin: 5%;
     background-image: url(../img/Newletter.png);
     background-position: center;
     background-size: 200px;
