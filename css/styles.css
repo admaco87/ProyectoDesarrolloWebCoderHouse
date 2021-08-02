@@ -148,6 +148,9 @@ body {
     font-family: "Oxygen", sans-serif; }
     .test-princ .test-text blockquote:hover {
       color: white; }
+  .test-princ iframe {
+    width: 315px;
+    height: 215px; }
 
 @media (max-width: 780px) {
   .test-princ {
@@ -170,7 +173,10 @@ body {
       position: relative;
       padding-left: 2rem;
       font-weight: 100px;
-      font-family: "Oxygen", sans-serif; } }
+      font-family: "Oxygen", sans-serif; }
+    .test-princ .test-text iframe {
+      width: 290px;
+      height: 200px; } }
 
 .carrusel h2 {
   font-size: 3rem;
@@ -500,6 +506,9 @@ body {
     font-family: "Oxygen", sans-serif; }
     .test-princ .test-text blockquote:hover {
       color: white; }
+  .test-princ iframe {
+    width: 315px;
+    height: 215px; }
 
 @media (max-width: 780px) {
   .test-princ {
@@ -522,7 +531,10 @@ body {
       position: relative;
       padding-left: 2rem;
       font-weight: 100px;
-      font-family: "Oxygen", sans-serif; } }
+      font-family: "Oxygen", sans-serif; }
+    .test-princ .test-text iframe {
+      width: 290px;
+      height: 200px; } }
 
 .carrusel h2 {
   font-size: 3rem;
