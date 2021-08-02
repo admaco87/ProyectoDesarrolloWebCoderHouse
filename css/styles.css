@@ -107,7 +107,7 @@ body {
   .headerPrincipal__site-header.inicio {
     background-image: url(../img/img-principal-t.svg);
     height: 100vh;
-    max-height: 250px;
+    max-height: 480px;
     background-position: left center;
     margin: auto; }
   .headerPrincipal__barra {
@@ -459,7 +459,7 @@ body {
   .headerPrincipal__site-header.inicio {
     background-image: url(../img/img-principal-t.svg);
     height: 100vh;
-    max-height: 250px;
+    max-height: 480px;
     background-position: left center;
     margin: auto; }
   .headerPrincipal__barra {
@@ -1080,6 +1080,7 @@ body {
       transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
       color: black; }
 
+/*  newletter contacto*/
 .newletter .suscribe__newletter {
   display: flex;
   flex-direction: row;
@@ -1120,47 +1121,8 @@ body {
     max-height: 300px;
     max-width: 300px; }
 
-@media (max-width: 696px) {
-  .newletter .suscribe__newletter {
-    display: flex;
-    flex-direction: row;
-    box-shadow: 7px 13px 37px #eee;
-    border-radius: 15px 15px 15px 15px;
-    margin: 10%;
-    justify-content: space-evenly; }
-    .newletter .suscribe__newletter .newletter__txt p {
-      font-family: "Jomhuria", cursive;
-      font-size: 3rem;
-      color: #d5d4d0;
-      margin-top: 1rem;
-      text-transform: uppercase; }
-    .newletter .suscribe__newletter .newletter__txt .newletter__btn {
-      background-image: linear-gradient(to right, #abbaab 0%, #ffffff 51%, #abbaab 100%);
-      margin: auto;
-      padding: 8px 25px;
-      text-align: center;
-      text-transform: uppercase;
-      transition: 0.5s;
-      background-size: 200% auto;
-      color: white;
-      box-shadow: 0 0 20px #eee;
-      border-radius: 10px;
-      display: block; }
-      .newletter .suscribe__newletter .newletter__txt .newletter__btn:hover {
-        background-position: right center;
-        /* change the direction of the change here */
-        background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%); }
-      .newletter .suscribe__newletter .newletter__txt .newletter__btn a {
-        text-decoration: none;
-        font-size: 2.5rem;
-        font-family: "Jomhuria", cursive;
-        text-transform: uppercase; }
-        .newletter .suscribe__newletter .newletter__txt .newletter__btn a:hover {
-          color: black; }
-    .newletter .suscribe__newletter .newletter__img {
-      max-height: 300px;
-      max-width: 300px; } }
-
+/* fin de newletter contacto*/
+/*media formulario*/
 @media (max-width: 480px) {
   .inicioForm {
     background-color: #0093E9;
@@ -1199,13 +1161,17 @@ body {
         cursor: pointer;
         transform: translateY(-3px);
         transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
-        color: black; }
+        color: black; } }
+
+/*fin media formulario*/
+/*inicio media newletter*/
+@media (max-width: 696px) {
   .newletter .suscribe__newletter {
     display: flex;
     flex-direction: row;
     box-shadow: 7px 13px 37px #eee;
     border-radius: 15px 15px 15px 15px;
-    margin: 10%;
+    margin: 15%;
     background-image: url(../img/Newletter.png);
     background-position: center;
     background-size: 200px;
@@ -1242,6 +1208,7 @@ body {
     .newletter .suscribe__newletter .newletter__img {
       display: none; } }
 
+/*fin media newletter*/
 /*Blog*/
 .entrada-bg {
   background: linear-gradient(0deg, #5f6163 0%, #010001 13%);
