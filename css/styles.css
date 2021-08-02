@@ -207,9 +207,9 @@ body {
     text-align: start;
     margin-left: 5px; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
-    width: 70%;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(1 1fr);
     margin-top: 1.5rem; } }
 
 .segundaSeccion .segundaSeccion__iconos-nosotros {
@@ -557,9 +557,9 @@ body {
     text-align: start;
     margin-left: 5px; }
   .segundaSeccion .segundaSeccion__iconos-nosotros {
-    width: 70%;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(1 1fr);
     margin-top: 1.5rem; } }
 
 .segundaSeccion .segundaSeccion__iconos-nosotros {
@@ -667,6 +667,22 @@ body {
   padding-top: 2rem;
   padding-left: 2rem;
   text-transform: uppercase; }
+  .navbar a img {
+    max-width: 170px;
+    max-height: 170px; }
+
+@media (max-width: 480px) {
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-transform: uppercase; }
+    .navbar a img {
+      max-width: 120px;
+      max-height: 120px; } }
 
 .titulosecundario .titulosecundario__inicioBanner {
   font-size: 2rem;
@@ -785,6 +801,16 @@ body {
       margin: 10px; } }
 
 /*Experiencia de usuarios*/
+.experiencia h3 {
+  font-size: 2rem;
+  padding: 2.5rem 1.5rem;
+  margin: 0rem 0;
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  color: #d5d4d0; }
+
 .experiencia .experienciaUsuario {
   display: grid;
   grid-template-areas: 'exUn exUno expDo expdos';
@@ -797,10 +823,13 @@ body {
     width: auto;
     max-height: 250px;
     max-width: 250px; }
+  .experiencia .experienciaUsuario h5 {
+    color: #F45C43;
+    font-size: 1.5rem; }
   .experiencia .experienciaUsuario p {
     font-family: "Shadows Into Light", cursive;
     color: #eee;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-decoration: aquamarine; }
   .experiencia .experienciaUsuario .experienciaUsiario__uno {
     grid-area: exUn;
@@ -809,7 +838,7 @@ body {
     grid-area: exUno;
     text-align: start;
     padding-top: 1rem;
-    max-width: 180px; }
+    max-width: 200px; }
   .experiencia .experienciaUsuario .experienciaUsiario__tres {
     grid-area: expDo;
     text-align: start;
@@ -819,6 +848,98 @@ body {
     grid-area: expdos;
     text-align: end;
     transform: scaleX(-1); }
+
+@media (max-width: 641px) {
+  .experiencia h3 {
+    font-size: 2rem;
+    padding: 2.5rem 1.5rem;
+    margin: 0rem 0;
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    color: #d5d4d0; }
+  .experiencia .experienciaUsuario {
+    display: grid;
+    grid-template-areas: 'exUn exUno expDo expdos';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4);
+    gap: 1rem;
+    margin-top: 1.2rem; }
+    .experiencia .experienciaUsuario img {
+      height: auto;
+      width: auto;
+      max-height: 200px;
+      max-width: 200px; }
+    .experiencia .experienciaUsuario h5 {
+      color: #F45C43;
+      font-size: 1.2rem; }
+    .experiencia .experienciaUsuario p {
+      font-family: "Shadows Into Light", cursive;
+      color: #eee;
+      font-size: 1.2rem;
+      text-decoration: aquamarine; }
+    .experiencia .experienciaUsuario .experienciaUsiario__uno {
+      grid-area: exUn;
+      text-align: end; }
+    .experiencia .experienciaUsuario .experienciaUsiario__dos {
+      grid-area: exUno;
+      text-align: start;
+      padding-top: 1rem;
+      max-width: 180px; }
+    .experiencia .experienciaUsuario .experienciaUsiario__tres {
+      grid-area: expDo;
+      text-align: start;
+      padding-top: 9rem;
+      max-width: 180px; }
+    .experiencia .experienciaUsuario .experienciaUsiario__cuatro {
+      grid-area: expdos;
+      text-align: end;
+      transform: scaleX(-1); } }
+
+@media (max-width: 500px) {
+  .experiencia {
+    margin-top: 120px; }
+    .experiencia h3 {
+      font-size: 2rem;
+      padding: 2.5rem 1.5rem;
+      margin: 0rem 0;
+      text-align: center;
+      margin-top: 15px;
+      font-family: "Anton", sans-serif;
+      letter-spacing: 2px;
+      color: #d5d4d0; }
+    .experiencia .experienciaUsuario {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-column-gap: 2rem;
+      text-align: center; }
+      .experiencia .experienciaUsuario img {
+        display: none; }
+      .experiencia .experienciaUsuario h5 {
+        color: #F45C43;
+        font-size: 1.2rem; }
+      .experiencia .experienciaUsuario p {
+        font-family: "Shadows Into Light", cursive;
+        color: #eee;
+        font-size: 1.2rem; }
+      .experiencia .experienciaUsuario .experienciaUsiario__uno {
+        grid-area: exUn;
+        text-align: end; }
+      .experiencia .experienciaUsuario .experienciaUsiario__dos {
+        grid-area: exUno;
+        text-align: start;
+        padding-top: 1rem;
+        max-width: 180px; }
+      .experiencia .experienciaUsuario .experienciaUsiario__tres {
+        grid-area: expDo;
+        text-align: start;
+        padding-top: 9rem;
+        max-width: 180px; }
+      .experiencia .experienciaUsuario .experienciaUsiario__cuatro {
+        grid-area: expdos;
+        text-align: end;
+        transform: scaleX(-1); } }
 
 /*Servicio*/
 .seccionServicio .seccionServicio__servicio {
@@ -1321,6 +1442,22 @@ body {
   padding-top: 2rem;
   padding-left: 2rem;
   text-transform: uppercase; }
+  .navbar a img {
+    max-width: 170px;
+    max-height: 170px; }
+
+@media (max-width: 480px) {
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-transform: uppercase; }
+    .navbar a img {
+      max-width: 120px;
+      max-height: 120px; } }
 
 * {
   box-sizing: border-box;

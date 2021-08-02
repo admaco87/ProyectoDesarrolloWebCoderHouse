@@ -3,7 +3,9 @@
 
 
 
-.navbar a {
+.navbar {
+
+a {
     color: white;
     text-decoration: none;
     font-size: 1.7rem;
@@ -11,6 +13,31 @@
     padding-top: 2rem;   
     padding-left: 2rem;
     text-transform: uppercase;
+    img{
+        max-width: 170px;
+        max-height: 170px;
+        
+    }
+    
+}}
 
+@media(max-width: 480px){
+    .navbar {
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.7rem;
+            margin-right: 2rem;
+            padding-top: 2rem;   
+            padding-left: 2rem;
+            text-transform: uppercase;
+            img{
+                max-width: 120px;
+                max-height: 120px;
+                
+            }
+            
+        }}
     
 }
