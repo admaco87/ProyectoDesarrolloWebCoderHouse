@@ -56,8 +56,8 @@ body{
     @media (max-width:780px){
         .headerPrincipal__site-header.inicio{
             background-image: url(../img/img-principal-t.svg);
-            
             height: 100vh;
+            max-height: 480px;
             background-position: right;
             margin: 0;
         }
@@ -72,10 +72,10 @@ body{
     @media (max-width:480px){
         .headerPrincipal__site-header.inicio{
             background-image: url(../img/img-principal-t.svg);
-            
             height: 100vh;
-            background-position: center center;
-            margin: 0;
+            max-height: 250px;
+            background-position:left center;
+            margin: auto;
         }
         .headerPrincipal__barra{
             display: none;
