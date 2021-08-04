@@ -4,17 +4,10 @@
 
 
 
-body{
-    
-    background: linear-gradient(0deg, rgba(48,57,82,1) 8%, rgba(120,135,177,1) 67%);
-        
+.bg-gral{
+   background-color: #c2bfb0;
+}      
       
-        
-    
-}
-
-.bg-gral--modifier{
-    background-attachment: fixed;}
 
 .headerPrincipal{
     height: 100vh;
@@ -67,19 +60,22 @@ body{
 }
 
 .header-titulo p{
-    font-size: 1.8rem;
+    font-family: $sub-tutile;
+    font-size: 2rem;
     display: block;
     padding-bottom: 4rem;
+    
 
 }
 
 .header-titulo a{
-    background: #c44569 ;
+    background: #d97a3f ;
     color: #fff;
     font-size: 2rem;
     padding: 1rem 2rem;
     text-transform: uppercase;
     font-family: $font-blog;
+ 
     
 }
 .header-titulo a:hover{
@@ -92,7 +88,7 @@ body{
         height: 100vh;
         display: flex;
         align-items: center;
-        color: #ffff;
+       
     }
     .contenedor{
         max-width: 49rem;
@@ -185,6 +181,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2rem;
+    padding-top: 10rem;
     .test-imagen{
         width: 100%;
         padding-left: 30%;
@@ -197,7 +194,7 @@ body{
         .centrar-texto{   
             font-family: $font-h3;
             font-size: 4rem;
-            color: #ff8f4e;
+            color: $principal-color;
            font-weight: 500;
         padding-left: 20px;}
 
@@ -205,19 +202,14 @@ body{
      
         
         blockquote{
-            font-size: 1.7rem;
-        color:#71DC9A;
-       
-        text-align: justify;
+        font-size: 1.7rem;
+        color:black;
         padding-right: 25px;
         border-radius: 2rem;
-        &:hover{
-            color: white;
-        }
-            position: relative;
-            padding-left: 2rem;
-            font-weight: 250px;
-            font-family: $text-font;
+        position: relative;
+        padding-left: 2rem;
+        font-weight: 250px;
+        font-family: $text-font;
         
         }
     }   
@@ -239,7 +231,7 @@ body{
                     h3{
                         font-family: $font-h3;
                         font-size: 1.2rem;
-                        color: #ff8f4e;
+                        color: $principal-color;
                        font-weight: 100;
                     }
                     
@@ -247,7 +239,7 @@ body{
               
         blockquote{
             font-size: 1.2rem;
-        color:#71DC9A;
+        color:black;
         text-align:center;
         padding-right: 25px;
        
@@ -276,9 +268,9 @@ body{
         h2{
     
             font-size: 3rem;
-            font-family:fantasy;
+            font-family:$family;
             font-weight: lighter;
-            color: #eee;
+            color: $principal-color;
             text-align: center;
             margin-top: 50px;
         }
@@ -291,9 +283,9 @@ body{
     h2{
     
         font-size: 3rem;
-        font-family:fantasy;
+        font-family:$family;
         font-weight: lighter;
-        color: #eee;
+        color:$principal-color;
         text-align: center;
         margin: 50px 0;
     }
@@ -301,7 +293,7 @@ body{
     h3{
         text-transform: uppercase;
         margin-top: 1.5rem;
-        color: #F39C12;
+        color: $principal-color;
     }
     
     .segundaSeccion__iconos-nosotros{
@@ -311,6 +303,13 @@ body{
         flex-basis: calc(33.3% - 2rem);
         text-align: center;
         margin: 1.5rem;
+
+        p{
+            font-size: 1.7rem;
+            padding-bottom: 01.5rem;
+            line-height: 02.01rem;
+            color: black;
+        }
         
     }
     
@@ -319,9 +318,8 @@ body{
     @media(max-width:578px){
         .segundaSeccion__centrado{
             font-size: 1rem;
-            font-family:fantasy;
-            font-weight: lighter;
-            color: #eee;
+            font-family:$family;
+            color: black;
             text-align: start;
             margin-left: 5px;
             
@@ -352,6 +350,7 @@ body{
             font-size: 1.7rem;
             padding-bottom: 01.5rem;
             line-height: 02.01rem;
+            color: black;
         }
         
         
@@ -360,9 +359,8 @@ body{
     @media (max-width:778px){
         .segundaSeccion__centrado{
             font-size: 2.5rem;
-            font-family:fantasy;
-            font-weight: lighter;
-            color: #eee;
+            font-family:$family;
+            color: black;
            text-align: start;
            margin-left: 80px;
         }
@@ -382,12 +380,12 @@ body{
          h5{
         font-size: 3rem;
         font-family: cursive;
-        color: #F39C12;
+        color: #d97a3f;
         
     }
         p{
             font: $text-font;
-            color: #fd1612;
+            color: #d97a3f;
             margin-bottom: 5rem;
         }
     }
@@ -415,7 +413,7 @@ body{
     .contacto__btn-contacto {
         
         
-        background-image: linear-gradient(to right, #abbaab 0%, #ffffff  51%, #abbaab  100%);
+        background-color: #e0a884;
         
            margin: auto;
            margin-left: -8%;

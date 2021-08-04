@@ -1,15 +1,18 @@
 
 @import 'font';
 $text-font:'Oxygen', sans-serif;
-$principal-color: rgb(168, 206, 33);
+$principal-color: #549C59 ;
 $family:  'Roboto', sans-serif;
-$color-litleT:white;
+$color-litleT:#d97a3f;
 $font-subtitle: 'Anton', sans-serif;
 $font-h3:'Jomhuria', cursive;
 $font-blog:'Fredoka One', cursive;
 $titulo-ex:'Shadows Into Light', cursive;
-$ux:'Shadows Into Light', cursive;
+
 $tituloheader:'Libre Baskerville', serif;
+$sub-tutile: 'Acme', sans-serif;
+
+
 
 @mixin subtitle {
     font-size: 2rem;
@@ -19,6 +22,7 @@ $tituloheader:'Libre Baskerville', serif;
     margin-top: 15px;
     font-family: $font-subtitle;
     letter-spacing: 2px;
+    color: $principal-color;
 }
 
 @mixin text {
@@ -26,13 +30,13 @@ $tituloheader:'Libre Baskerville', serif;
    font-weight: 400;
    text-align: justify;
    font-size: 1.5rem;
-   color: whitesmoke;
    line-height: 20px;
+   color: black;
    
 }
 
 @mixin textproceso {
-    color: white;
+    color: black;
     padding-left: 20px;
     
 }
@@ -42,11 +46,9 @@ $tituloheader:'Libre Baskerville', serif;
 
 @mixin miBanner ($imagen){
     @if $imagen == home{
-        background-image: url(../img/img-principal.svg);
-       background-repeat: no-repeat;
+       background-color: #c2bfb0;
         height: 100vh;
-        background-position:right;
-        opacity: 80%;
+       
     }
     @else if $imagen == imgBlog{
         background-image: url(../img/headerblog2.jpg);
