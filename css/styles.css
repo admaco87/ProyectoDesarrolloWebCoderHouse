@@ -61,9 +61,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Shadows+Into+Light&display=swap");
 body {
-  background-image: url(../img/bg-prueba2.png);
-  background-size: cover;
-  height: 100vh; }
+  background: linear-gradient(0deg, #303952 8%, #7887b1 67%); }
 
 .bg-gral--modifier {
   background-attachment: fixed; }
@@ -503,9 +501,7 @@ body {
 /*banner principal y blog*/
 /*maps*/
 body {
-  background-image: url(../img/bg-prueba2.png);
-  background-size: cover;
-  height: 100vh; }
+  background: linear-gradient(0deg, #303952 8%, #7887b1 67%); }
 
 .bg-gral--modifier {
   background-attachment: fixed; }
@@ -867,6 +863,9 @@ body {
     .navbar a img {
       max-width: 120px;
       max-height: 105px; } }
+
+.headerSeccion {
+  margin-top: 120px; }
 
 .titulosecundario .titulosecundario__inicioBanner {
   font-size: 2rem;
