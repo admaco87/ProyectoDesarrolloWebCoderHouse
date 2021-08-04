@@ -222,7 +222,7 @@
   .test-princ .test-text .centrar-texto {
     font-family: "Jomhuria", cursive;
     font-size: 4rem;
-    color: #549C59;
+    color: #008e97;
     font-weight: 500;
     padding-left: 20px; }
   .test-princ .test-text blockquote {
@@ -249,7 +249,7 @@
     .test-princ .test-text h3 {
       font-family: "Jomhuria", cursive;
       font-size: 1.2rem;
-      color: #549C59;
+      color: #008e97;
       font-weight: 100; }
     .test-princ .test-text blockquote {
       font-size: 1.2rem;
@@ -268,7 +268,7 @@
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
-  color: #549C59;
+  color: #008e97;
   text-align: center;
   margin-top: 50px; }
 
@@ -276,14 +276,14 @@
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
-  color: #549C59;
+  color: #008e97;
   text-align: center;
   margin: 50px 0; }
 
 .segundaSeccion h3 {
   text-transform: uppercase;
   margin-top: 1.5rem;
-  color: #549C59; }
+  color: #008e97; }
 
 .segundaSeccion .segundaSeccion__iconos-nosotros {
   display: flex;
@@ -348,8 +348,7 @@
 
 .carrusel .carousel-inner p {
   font: "Oxygen", sans-serif;
-  color: #d97a3f;
-  margin-bottom: 5rem; }
+  color: #d97a3f; }
 
 /* boton contacto*/
 .contacto .contacto__contacto-index {
@@ -386,7 +385,8 @@
     text-decoration: none;
     font-size: 2.5rem;
     margin: 15px;
-    font-family: "Fredoka One", cursive; }
+    font-family: "Fredoka One", cursive;
+    color: black; }
 
 @media (max-width: 780px) {
   .contacto .contacto__contacto-index {
@@ -476,7 +476,7 @@
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
-    color: #7cb921; }
+    color: #d97a3f; }
 
 .socialMedia .socialMedia__link {
   display: flex;
@@ -486,7 +486,7 @@
     margin: 0 30px; }
     .socialMedia .socialMedia__link a i {
       font-size: 3.5rem;
-      color: #58D68D; }
+      color: #008e97; }
 
 .app .whatsapp {
   position: fixed;
@@ -646,7 +646,7 @@
   .test-princ .test-text .centrar-texto {
     font-family: "Jomhuria", cursive;
     font-size: 4rem;
-    color: #549C59;
+    color: #008e97;
     font-weight: 500;
     padding-left: 20px; }
   .test-princ .test-text blockquote {
@@ -673,7 +673,7 @@
     .test-princ .test-text h3 {
       font-family: "Jomhuria", cursive;
       font-size: 1.2rem;
-      color: #549C59;
+      color: #008e97;
       font-weight: 100; }
     .test-princ .test-text blockquote {
       font-size: 1.2rem;
@@ -692,7 +692,7 @@
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
-  color: #549C59;
+  color: #008e97;
   text-align: center;
   margin-top: 50px; }
 
@@ -700,14 +700,14 @@
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
-  color: #549C59;
+  color: #008e97;
   text-align: center;
   margin: 50px 0; }
 
 .segundaSeccion h3 {
   text-transform: uppercase;
   margin-top: 1.5rem;
-  color: #549C59; }
+  color: #008e97; }
 
 .segundaSeccion .segundaSeccion__iconos-nosotros {
   display: flex;
@@ -772,8 +772,7 @@
 
 .carrusel .carousel-inner p {
   font: "Oxygen", sans-serif;
-  color: #d97a3f;
-  margin-bottom: 5rem; }
+  color: #d97a3f; }
 
 /* boton contacto*/
 .contacto .contacto__contacto-index {
@@ -810,7 +809,8 @@
     text-decoration: none;
     font-size: 2.5rem;
     margin: 15px;
-    font-family: "Fredoka One", cursive; }
+    font-family: "Fredoka One", cursive;
+    color: black; }
 
 @media (max-width: 780px) {
   .contacto .contacto__contacto-index {
@@ -867,7 +867,7 @@
   margin-top: 15px;
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
-  color: #549C59; }
+  color: #008e97; }
 
 /*nosotros*/
 .nosotros-contenido .nosotros-contenido__contenido-nosotros {
@@ -912,8 +912,8 @@
   margin-top: 15px;
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
-  color: #549C59;
-  color: #549C59; }
+  color: #008e97;
+  color: #008e97; }
 
 .nosotrosEmpresa .nosotrosEmpresa__logo {
   position: relative;
@@ -968,7 +968,7 @@
   margin-top: 15px;
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
-  color: #549C59;
+  color: #008e97;
   color: #549C59; }
 
 .experiencia .experienciaUsuario {
@@ -1089,7 +1089,7 @@
     margin-top: 5rem;
     letter-spacing: 5px;
     font-size: 20px;
-    color: #549C59; }
+    color: #008e97; }
   .seccionServicio .seccionServicio__servicio:hover {
     opacity: .9; }
   .seccionServicio .seccionServicio__servicio p {
@@ -1219,7 +1219,7 @@
   .newletter .suscribe__newletter .newletter__txt p {
     font-family: "Jomhuria", cursive;
     font-size: 4rem;
-    color: #d5d4d0;
+    color: #d97a3f;
     margin-top: 1.5rem;
     text-transform: uppercase; }
   .newletter .suscribe__newletter .newletter__txt .newletter__btn {
@@ -1318,7 +1318,7 @@
       text-transform: uppercase;
       transition: 0.5s;
       background-size: 200% auto;
-      color: white;
+      color: #d97a3f;
       box-shadow: 0 0 20px #eee;
       border-radius: 10px;
       display: block; }
